@@ -8,7 +8,7 @@ import pandas as pd
 # ------------------------------------------
 
 # Path to the saved model and associated components
-MODEL_PATH = 'artifacts/model_data2.joblib'
+MODEL_PATH = 'Artifacts/model_data2.joblib'
 
 # Load the model and associated data from the file
 model_data = joblib.load(MODEL_PATH)
