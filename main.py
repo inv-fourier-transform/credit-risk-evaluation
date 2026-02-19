@@ -1,9 +1,9 @@
 import streamlit as st
-from prediction_helper import predict
+from Core.prediction_helper import predict
 
 # Set the page configuration and title
-st.set_page_config(page_title="Goobe Finance: Credit Risk Modeling", layout="centered")
-st.title("💳 Goobe Finance: Credit Risk Modeling")
+st.set_page_config(page_title="CredVibe: Credit Risk Modeling", layout="centered")
+st.title("💳 CredVibe: Credit Risk Modeling")
 
 # Create a 4x3 grid of input fields
 row1 = st.columns(3)
